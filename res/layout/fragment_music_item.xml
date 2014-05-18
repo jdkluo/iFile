@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:id="@+id/iv_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_action_headphones" />
+
+    <TextView
+        android:id="@+id/tv_durction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_musicname"
+        android:layout_marginLeft="26dp"
+        android:layout_toRightOf="@+id/iv_music"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_musicname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_durction"
+        android:layout_alignTop="@+id/iv_music"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/tv_ari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_music"
+        android:layout_marginLeft="41dp"
+        android:layout_toRightOf="@+id/tv_durction"
+        android:text="TextView" />
+
+</RelativeLayout>
